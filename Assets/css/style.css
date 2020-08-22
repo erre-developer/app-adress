@@ -1,0 +1,105 @@
+
+.idsection{
+    padding: 50px;
+}
+
+.color-jumbo {
+    color: #2c789f;
+}
+
+@media (max-width: 768px) {
+    .miestilo {
+        text-align: center;
+    }
+}
+@media (max-width: 426px) {
+    .miestilo {
+        font-size: 40px;
+    }
+
+    .color-jumbo{
+        font-size: 40px;
+    }
+}
+
+p {
+    text-align: justify;
+    color: #687B8C;
+}
+
+.bg-prueba  {
+    opacity: 0.9;
+    transition: all 2s ease;
+}
+.bg-dark  {
+    transition: all 2s ease;
+}
+#map {
+    width: 90%; height: 400px; margin-top: 10px; margin-bottom: 10px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.btn-p {
+    background-color: #3e66b9;
+    color: white;
+    border-radius: 30px;
+}
+
+.btn-p:hover {
+    background-color: #6C63FF;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.color-primary {
+    color: #3e66b9;
+}
+
+.partner{
+    color: #3e66b9;
+    text-align: center;
+    display: grid;
+}
+
+.partner2{
+    color: #e8552b;
+}
+
+.responsive-img {
+    width: 30%;
+    min-width: 400px;
+    height: auto;
+    align-items: center;
+    align-content: center;
+  }
+
+#box1 {
+    height: 100vh;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parallax {
+    /* background-image: url("img/parallax2.png");*/
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 {
+    background-image: url('../img/parallax.png');
+    width: 100%;
+}
+
+#section2 {
+    background-image: url('../img/parallax2.jpg');
+    width: 100%;
+}
+
